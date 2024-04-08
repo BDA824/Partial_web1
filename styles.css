@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+html {
+  background-color: #d5d5f0;
+  color: black;
+}
+
+#button {
+  padding: 10px 20px;
+  background-color: #8ba8f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+}
+
+#button:hover {
+  background-color: #8f8bef;
+}
+
+#button:active {
+  background-color: #8ba8f0;
+}
+
+#name {
+  padding: 10px 20px;
+  width: 150px;
+  border-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+
+label {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+div {
+  background-color: gray;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 1000px;
+  height: 350px;
+  text-align: center;
+  margin: auto;
+}
